@@ -13,13 +13,166 @@
     <!--main css-->
     <link rel="stylesheet" href="./css/main.css">
     <style>
-        a{
-            font-size: 4rem;
-            color: blue;
-        }
+       
     </style>
 </head>
 <body>
+<header id="header" class="bg-dark">
+    <div class="container">
+        <div class="row height align-items-center">
+            <div class="col">
+                <h1 class="text-danger text-uppercase font-weight-bold font-italic">
+                    <strong>My second bootstarp</strong>
+                    <small class="text-light">website</small>
+                </h1>
+                <!--"w" is not working in my case-->
+                <p class="text-muted lead py-2 w-30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate impedit officia, non numquam quisquam officiis ullam iusto explicabo quis amet.</p>
+                <a href="#" class="btn btn-outline-primary btn-lg m-2">Press Here</a>
+                <a href="#" class="btn btn-outline-success btn-lg m-2">Press Here</a>
+            </div>
+        </div>
+    </div>
+</header>
+<!--end of header-->
+<!--skills section-->
+<section id="skills" class="py-5 bg-white">
+    <div class="container">
+       <!--titel-->
+       <div class="row">
+           <div class="col text-center">
+               <h1 class="display-4 text-uppercase text-dark mb-0">
+                   <strong>skills</strong>
+               </h1>
+               <div class="title-underline bg-danger"></div>
+               <p class="mt-2 text-capitalize text-muted">Lorem ipsum dolor sit amet.</p>
+           </div>
+        <!--end of title-->
+        <div class="row">
+           <!--singel colum--> 
+            <div class="col-sm-6 col-md-3 text-center my-4">
+                <i class="fab fa-node-js fa-5x text-danger"></i>
+                <h3 class="text-uppercase my-3">node.Js</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore distinctio quia labore ducimus ipsa dolores.</p>
+                <a href="#" class="btn btn-outline-danger btn-block text-uppercase mx-3">press here</a>
+            </div>
+            <!--end of single colum-->
+
+            <!--singel colum--> 
+            <div class="col-sm-6 col-md-3 text-center my-4">
+                <i class="fab fa-html5 fa-5x text-danger"></i>
+                <h3 class="text-uppercase my-3">html</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore distinctio quia labore ducimus ipsa dolores.</p>
+                <a href="#" class="btn btn-outline-danger w-75 text-uppercase mx-3">press here</a>
+            </div>
+            <!--end of single colum-->
+
+            <!--singel colum--> 
+            <div class="col-sm-6 col-md-3 text-center my-4">
+                <i class="fab fa-css3 fa-5x text-danger"></i>
+                <h3 class="text-uppercase my-3">css</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore distinctio quia labore ducimus ipsa dolores.</p>
+                <a href="#" class="btn btn-outline-danger w-50 text-uppercase mx-3">press here</a>
+            </div>
+            <!--end of single colum-->
+
+            <!--singel colum--> 
+            <div class="col-sm-6 col-md-3 text-center my-4">
+                <i class="fab fa-js fa-5x text-danger"></i>
+                <h3 class="text-uppercase my-3">js</h3>
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore distinctio quia labore ducimus ipsa dolores.</p>
+                <!--"w-25" is not working-->
+                <a href="#" class="btn btn-outline-danger w-25 text-uppercase mx-3">press here</a>
+            </div>
+            <!--end of single colum-->
+        </div>
+           </div>
+       </div> 
+    </div>
+</section>
+<!--end of skills section-->
+
+<!--About sectio-->
+<section id="about" class="bg-info">
+    <div class="container-fluid">
+        <div class="row">
+            <!--Img col-->
+            <div class="col-sm-6 about-picture height-80">
+
+            </div>
+            <!--Text col-->
+            <div class="col-sm-6 about-text height-80 px-5 d-flex align-items-center justify-content-center">
+                <div class="about-text-center">
+                    <!--title-->
+                    <div class="row">
+                        <div class="col text-center">
+                            <h1 class="display-4 text-uppercase text-dark mb-0">
+                                <strong>about</strong>
+                            </h1>
+                            <div class="title-underline bg-warning"></div>
+                            <p class="mt-2 text-capitalize text-muted">Lorem ipsum dolor sit amet.</p>
+                        </div>  
+                    </div>
+                    <!--end title-->
+                    <!--about ck box-->
+                    <div class="checkbox-item d-flex">
+                    <i class="fas fa-check fa-3x p-2 bg-warning mr-3 align-self-center"></i>
+                    <p class="text-light lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, sapiente?</p>
+                    </div>
+                    <!--end of about ck box-->
+                    <!--about ck box-->
+                    <div class="checkbox-item d-flex">
+                        <i class="fas fa-check fa-3x p-2 bg-warning mr-3 align-self-center"></i>
+                        <p class="text-light lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, sapiente?</p>
+                        </div>
+                        <!--end of about ck box-->
+                        <!--about ck box-->
+                    <div class="checkbox-item d-flex">
+                        <i class="fas fa-check fa-3x p-2 bg-warning mr-3 align-self-center"></i>
+                        <p class="text-light lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, sapiente?</p>
+                        </div>
+                        <!--end of about ck box-->
+                </div>
+            </div>
+         </div>
+    </div>
+
+</section>
+<!--end of about section-->
+
+<!--project sectio-->
+<section id="projects" class="py-5 bg-secondary">
+    <div class="container">
+        <!--title-->
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4 text-uppercase text-dark mb-0">
+                    <strong>projects</strong>
+                </h1>
+                <div class="title-underline bg-danger"></div>
+            </div>  
+        </div>
+        <!--end title-->
+        <div class="row py-3">
+            <!--1st project-->
+            <div class="col-sm-6 col-md-4 my-3">
+                <img src="img/p3.jpg" class="img-fluid rounded" alt="project1">
+            </div>
+            <!--end of 1st project-->
+            <!--2nd project-->
+            <div class="col-sm-6 col-md-4 my-3 ">
+                <img src="img/p1.jpg" class="img-fluid rounded-circle" alt="project1">
+            </div>
+            <!--end of 2nd project-->
+            <!--3rd project-->
+            <div class="col-sm-6 col-md-4 my-3 mx-auto">
+                <img src="img/p4.jpg" class="img-fluid img-thumbnail bg-danger border border-warning " alt="project1">
+            </div>
+            <!--end of 3rd project-->
+        </div>
+        
+    </div>
+</section>
+<!--end of project sectio-->
   
 
 
