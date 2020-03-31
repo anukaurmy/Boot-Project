@@ -23,3 +23,18 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.size{
+    height: 300px;
+    
+}
+#filler{
+    background:linear-gradient(rgb(15, 1, 1), rgba(0, 0, 0, 0.5)),   url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+.map{
+    width: 100px;
+    height: 100px;
+}
