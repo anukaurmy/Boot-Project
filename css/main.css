@@ -27,14 +27,43 @@ body{
     height: 300px;
     
 }
-#filler #progress{
-    background: url(../img/about.jpg);
+#filler {
+    background:  linear-gradient(to bottom, rgba(0, 0, 0, 1) 20%, rgba(139, 79, 79, 0.6) 86%, rgba(116, 114, 114, 0.8) 100%), url(../img/header\ bg.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
 .map{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+}
+.carousel{
+    background:  linear-gradient(to right, rgba(0, 0, 0, 1) 20%, rgba(39, 14, 14, 0.801) 96%, rgba(8, 8, 8, 0.8) 100%);
+    min-height: 100vh;
+    min-width: 100vh ;
+    
+}
+
+#progress {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.123) 20%, rgba(16, 80, 8, 0.699) 100%), url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+#header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.377) 10%,  rgba(7, 7, 7, 0.562) 50%), url(../img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+#pricing{
+    background:  linear-gradient(to right, rgba(59, 2, 112, 0.76) 20%, rgba(247, 6, 194, 0.301) 96%, rgba(139, 48, 243, 0.192) 100%);
+
+}
+#footer{
+    background:  linear-gradient(to bottom, rgba(59, 2, 112, 0.055) 20%, rgba(247, 6, 195, 0.171) 96%, rgba(139, 48, 243, 0.11) 100%);
+
 }
